@@ -1,0 +1,13 @@
+{
+  "name": "leahkonma/328/diner",
+  "description": "My MVC Diner Application",
+  "authors": [
+    {
+      "name": "Leah Konma",
+      "email": "leahkonma02@gmail.com"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
