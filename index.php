@@ -18,7 +18,11 @@ $f3 = Base::instance(); //static method
 
 //define a default route
 $f3->route('GET /', function (){
-    echo "My Diner";
+//    echo "My Diner";
+
+    //display a view page
+    $view = new Template();
+    echo $view->render('views/home.html');
 });
 
 //run Fat-Free
