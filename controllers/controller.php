@@ -120,4 +120,11 @@ class Controller
         echo $view->render('views/order-summary.html');
     }//end of summary function
 
+    function view()
+    {
+        //display a view page
+        $view = new Template();
+        echo $view->render('views/view-orders.html');
+    }
+
 }

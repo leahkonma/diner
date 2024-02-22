@@ -50,5 +50,10 @@ $f3->route('GET /summary', function() {
     $GLOBALS['con']->summary();
 });
 
+// Define a view orders route
+$f3->route('GET /view', function (){
+   $GLOBALS['con']->view();
+});
+
 // Run Fat-Free
 $f3->run(); //instance method
